@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Streamlit config and cache
+.streamlit/
+
+# Temporary and local virtual environments
+venv/
+.venv/
+env/
+
+# Large Model weights
+*.pt
+*.onnx
+*.engine
+!models/README.md
+
+# Generated heavy video and frame outputs (keep outputs/.gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# Sample data videos (keep sample_data/README.md)
+sample_data/*.mp4
+sample_data/*.avi
+sample_data/*.mov
+!sample_data/README.md
+
+# OS specific
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+# AI Crowd Analytics on Aerial Video
+# Core Requirements for Susan Future Technologies (SFT) Technical Assignment
+
+# Computer Vision & Deep Learning
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+
+# Multi-Object Tracking & Evaluation
+supervision>=0.20.0
+filterpy>=1.4.5
+lapx>=0.5.5
+
+# Data Processing & Numerical Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization & Dashboard
+streamlit>=1.30.0
+matplotlib>=3.7.0
+altair>=5.0.0
+
+# Automated Testing
+pytest>=7.4.0
